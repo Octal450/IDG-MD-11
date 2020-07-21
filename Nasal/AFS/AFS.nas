@@ -49,6 +49,7 @@ var Gear = {
 var Misc = {
 	elapsedSec: props.globals.getNode("/sim/time/elapsed-sec", 1),
 	flapDeg: props.globals.getNode("/fdm/jsbsim/fcs/flap-pos-deg", 1),
+	gpsFlyBy: props.globals.getNode("/instrumentation/gps/fly-by-enabled", 1),
 	ir0Align: props.globals.getNode("/instrumentation/irs/ir[0]/aligned", 1),
 	ir1Align: props.globals.getNode("/instrumentation/irs/ir[1]/aligned", 1),
 	ir2Align: props.globals.getNode("/instrumentation/irs/ir[2]/aligned", 1),
@@ -133,6 +134,7 @@ var Internal = {
 	bankLimitAuto: 25,
 	captVs: 0,
 	driftAngle: props.globals.initNode("/it-autoflight/internal/drift-angle-deg", 0, "DOUBLE"),
+	fgVer: num(string.replace(getprop("/sim/version/flightgear"), ".", "")),
 	flchActive: 0,
 	fpa: props.globals.initNode("/it-autoflight/internal/fpa", 0, "DOUBLE"),
 	hdg: props.globals.initNode("/it-autoflight/internal/hdg", 0, "INT"),
@@ -297,6 +299,7 @@ var ITAF = {
 		Custom.Output.hdgCaptured = 1;
 		me.updateActiveFMS(1);
 		Custom.showHdg.setBoolValue(1);
+		Misc.gpsFlyBy.setBoolValue(1); # Set GPS into proper mode
 		if (t != 1) {
 			Sound.apOff.setBoolValue(0);
 			Custom.apWarn.setBoolValue(0);
@@ -645,7 +648,7 @@ var ITAF = {
 		}
 		
 		# Waypoint Advance Logic
-		if (FPLN.numTemp > 0 and FPLN.activeTemp == 1) {
+		if (FPLN.numTemp > 0 and FPLN.activeTemp == 1 and (Internal.fgVer < 202020 or !Misc.gpsFlyBy.getBoolValue())) {
 			if ((FPLN.currentWpTemp + 1) < FPLN.numTemp) {
 				Velocities.groundspeedMps = Velocities.groundspeedKt.getValue() * 0.5144444444444;
 				FPLN.wpFlyFrom = FPLN.currentWpTemp;
