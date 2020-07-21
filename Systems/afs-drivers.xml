@@ -590,7 +590,13 @@
 			</condition>
 			<expression>
 				<sum>
-					<property>/autopilot/route-manager/wp[0]/true-bearing-deg</property>
+					<property>/instrumentation/gps/wp/leg-true-course-deg</property>
+					<table>
+						<property>/instrumentation/gps/wp/wp[1]/course-error-nm</property>
+						<entry><ind>-1</ind><dep>-45</dep></entry>
+						<entry><ind> 0</ind><dep>  0</dep></entry>
+						<entry><ind> 1</ind><dep> 45</dep></entry>
+					</table>
 					<product>
 						<property>/it-autoflight/internal/drift-angle-deg</property>
 						<value>-1.0</value>
