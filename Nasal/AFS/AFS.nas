@@ -648,7 +648,7 @@ var ITAF = {
 		}
 		
 		# Waypoint Advance Logic
-		if (FPLN.numTemp > 0 and FPLN.activeTemp == 1 and (Internal.fgVer < 202020 or !Misc.gpsFlyBy.getBoolValue())) {
+		if (FPLN.numTemp > 0 and FPLN.activeTemp == 1 and (Internal.fgVer < 202021 or !Misc.gpsFlyBy.getBoolValue())) {
 			if ((FPLN.currentWpTemp + 1) < FPLN.numTemp) {
 				Velocities.groundspeedMps = Velocities.groundspeedKt.getValue() * 0.5144444444444;
 				FPLN.wpFlyFrom = FPLN.currentWpTemp;
