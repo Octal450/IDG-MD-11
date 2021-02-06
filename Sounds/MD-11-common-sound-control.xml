@@ -78,9 +78,29 @@
 			<expression>
 				<table>
 					<property>/velocities/groundspeed-kt</property>
-					<entry><ind> 10</ind><dep>0.0</dep></entry>
-					<entry><ind>110</ind><dep>0.25</dep></entry>
-					<entry><ind>150</ind><dep>0.5</dep></entry>
+					<entry><ind>3</ind><dep>0.0</dep></entry>
+					<entry><ind>100</ind> <dep>0.35</dep></entry>
+					<entry><ind>120</ind> <dep>0.0</dep></entry>
+				</table>
+			</expression> 
+		</input>
+		<input>0</input>
+		<output>/sim/sound/other/roll-slow-v</output>
+	</filter>
+	
+	<filter>
+		<type>gain</type>
+		<gain>1</gain>
+		<input>
+			<condition>
+				<property>/sim/sound/internal-custom</property>
+			</condition>
+			<expression>
+				<table>
+					<property>/velocities/groundspeed-kt</property>
+					<entry><ind>80</ind> <dep>0.0</dep></entry>
+					<entry><ind>100</ind> <dep>0.35</dep></entry>
+					<entry><ind>190</ind><dep>0.35</dep></entry>
 				</table>
 			</expression> 
 		</input>
@@ -98,8 +118,8 @@
 			<expression>
 				<table>
 					<property>/velocities/groundspeed-kt</property>
-					<entry><ind> 10</ind><dep>0.5</dep></entry>
-					<entry><ind>150</ind><dep>1.0</dep></entry>
+					<entry><ind> 10</ind><dep>0.75</dep></entry>
+					<entry><ind>190</ind><dep>1.25</dep></entry>
 				</table>
 			</expression> 
 		</input>

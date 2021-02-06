@@ -341,11 +341,107 @@
 				<offset>0.1</offset>
 			</volume>
 		</misc>
+
+		<misc>
+			<name>md11 roll c 0 2</name>
+			<mode>looped</mode>
+			<path>Aircraft/MD-11/Sounds/Devyn-Common/MD11-roll.wav</path>
+			<property>gear/gear[0]/wow</property>
+			
+			<volume>
+				<property>sim/sound/other/roll-slow-v</property>
+				<factor>1</factor>
+			</volume>
+			<pitch>
+				<property>sim/sound/other/roll-p</property>
+				<factor>1</factor>
+			</pitch>
+		</misc>
+		
+		<misc>
+			<name>md11 roll l 1 2</name>
+			<mode>looped</mode>
+			<path>Aircraft/MD-11/Sounds/Devyn-Common/MD11-roll.wav</path>
+			<property>gear/gear[1]/wow</property>
+			
+			<volume>
+				<property>sim/sound/other/roll-slow-v</property>
+				<factor>1</factor>
+			</volume>
+			<pitch>
+				<property>sim/sound/other/roll-p</property>
+				<factor>1</factor>
+			</pitch>
+		</misc>
+		
+		<misc>
+			<name>md11 roll r 2 2</name>
+			<mode>looped</mode>
+			<path>Aircraft/MD-11/Sounds/Devyn-Common/MD11-roll.wav</path>
+			<property>gear/gear[2]/wow</property>
+			
+			<volume>
+				<property>sim/sound/other/roll-slow-v</property>
+				<factor>1</factor>
+			</volume>
+			<pitch>
+				<property>sim/sound/other/roll-p</property>
+				<factor>1</factor>
+			</pitch>
+		</misc>
+		
+		<misc>
+			<name>md11 roll c 3 2</name>
+			<mode>looped</mode>
+			<path>Aircraft/MD-11/Sounds/Devyn-Common/MD11-roll.wav</path>
+			<property>gear/gear[3]/wow</property>
+			
+			<volume>
+				<property>sim/sound/other/roll-slow-v</property>
+				<factor>1</factor>
+			</volume>
+			<pitch>
+				<property>sim/sound/other/roll-p</property>
+				<factor>1</factor>
+			</pitch>
+		</misc>
+		
+		<misc>
+			<name>md11 roll l 1 2</name>
+			<mode>looped</mode>
+			<path>Aircraft/MD-11/Sounds/Devyn-Common/MD11-roll.wav</path>
+			<property>gear/gear[1]/wow</property>
+			
+			<volume>
+				<property>sim/sound/other/roll-slow-v</property>
+				<factor>1</factor>
+			</volume>
+			<pitch>
+				<property>sim/sound/other/roll-p</property>
+				<factor>1</factor>
+			</pitch>
+		</misc>
+		
+		<misc>
+			<name>md11 roll r 2 2</name>
+			<mode>looped</mode>
+			<path>Aircraft/MD-11/Sounds/Devyn-Common/MD11-roll.wav</path>
+			<property>gear/gear[2]/wow</property>
+			
+			<volume>
+				<property>sim/sound/other/roll-slow-v</property>
+				<factor>1</factor>
+			</volume>
+			<pitch>
+				<property>sim/sound/other/roll-p</property>
+				<factor>1</factor>
+			</pitch>
+		</misc>
 		
 		<misc>
 			<name>md11 roll c 0</name>
 			<mode>looped</mode>
-			<path>Aircraft/MD-11/Sounds/Effects/roll.wav</path>
+			<path>Aircraft/MD-11/Sounds/Devyn-Common/MD11-roll-fast.wav</path>
 			<property>gear/gear[0]/wow</property>
 			
 			<volume>
@@ -361,7 +457,7 @@
 		<misc>
 			<name>md11 roll l 1</name>
 			<mode>looped</mode>
-			<path>Aircraft/MD-11/Sounds/Effects/roll.wav</path>
+			<path>Aircraft/MD-11/Sounds/Devyn-Common/MD11-roll-fast.wav</path>
 			<property>gear/gear[1]/wow</property>
 			
 			<volume>
@@ -377,7 +473,7 @@
 		<misc>
 			<name>md11 roll r 2</name>
 			<mode>looped</mode>
-			<path>Aircraft/MD-11/Sounds/Effects/roll.wav</path>
+			<path>Aircraft/MD-11/Sounds/Devyn-Common/MD11-roll-fast.wav</path>
 			<property>gear/gear[2]/wow</property>
 			
 			<volume>
@@ -393,7 +489,7 @@
 		<misc>
 			<name>md11 roll c 3</name>
 			<mode>looped</mode>
-			<path>Aircraft/MD-11/Sounds/Effects/roll.wav</path>
+			<path>Aircraft/MD-11/Sounds/Devyn-Common/MD11-roll-fast.wav</path>
 			<property>gear/gear[3]/wow</property>
 			
 			<volume>
@@ -409,7 +505,7 @@
 		<misc>
 			<name>md11 roll l 1</name>
 			<mode>looped</mode>
-			<path>Aircraft/MD-11/Sounds/Effects/roll.wav</path>
+			<path>Aircraft/MD-11/Sounds/Devyn-Common/MD11-roll-fast.wav</path>
 			<property>gear/gear[1]/wow</property>
 			
 			<volume>
@@ -425,7 +521,7 @@
 		<misc>
 			<name>md11 roll r 2</name>
 			<mode>looped</mode>
-			<path>Aircraft/MD-11/Sounds/Effects/roll.wav</path>
+			<path>Aircraft/MD-11/Sounds/Devyn-Common/MD11-roll-fast.wav</path>
 			<property>gear/gear[2]/wow</property>
 			
 			<volume>
