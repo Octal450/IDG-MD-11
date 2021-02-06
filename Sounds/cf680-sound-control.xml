@@ -22,7 +22,7 @@
 					<entry><ind>  0.0</ind><dep>  0.0</dep></entry>
 					<entry><ind> 62.9</ind><dep> 62.9</dep></entry>
 				</table>
-			</expression> 
+			</expression>
 		</input>
 		<input>
 			<condition>
@@ -38,7 +38,7 @@
 					<entry><ind> 23.7</ind><dep> 62.9</dep></entry>
 					<entry><ind>117.5</ind><dep>112.6</dep></entry>
 				</table>
-			</expression> 
+			</expression>
 		</input>
 		<output>/sim/sound/fake-n2[0]</output>
 	</filter>
@@ -59,7 +59,7 @@
 					<entry><ind>  0.0</ind><dep>  0.0</dep></entry>
 					<entry><ind> 62.9</ind><dep> 62.9</dep></entry>
 				</table>
-			</expression> 
+			</expression>
 		</input>
 		<input>
 			<condition>
@@ -75,7 +75,7 @@
 					<entry><ind> 23.7</ind><dep> 62.9</dep></entry>
 					<entry><ind>117.5</ind><dep>112.6</dep></entry>
 				</table>
-			</expression> 
+			</expression>
 		</input>
 		<output>/sim/sound/fake-n2[1]</output>
 	</filter>
@@ -96,7 +96,7 @@
 					<entry><ind>  0.0</ind><dep>  0.0</dep></entry>
 					<entry><ind> 62.9</ind><dep> 62.9</dep></entry>
 				</table>
-			</expression> 
+			</expression>
 		</input>
 		<input>
 			<condition>
@@ -112,7 +112,7 @@
 					<entry><ind> 23.7</ind><dep> 62.9</dep></entry>
 					<entry><ind>117.5</ind><dep>112.6</dep></entry>
 				</table>
-			</expression> 
+			</expression>
 		</input>
 		<output>/sim/sound/fake-n2[2]</output>
 	</filter>

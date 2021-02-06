@@ -13,32 +13,32 @@
 			<condition>
 				<less-than>
 					<property>/engines/engine[0]/n2-actual</property>
-					<value>62.89</value>
+					<value>65.19</value>
 				</less-than>
 			</condition>
 			<expression>
 				<table>
 					<property>/engines/engine[0]/n2-actual</property>
 					<entry><ind>  0.0</ind><dep>  0.0</dep></entry>
-					<entry><ind> 62.9</ind><dep> 62.9</dep></entry>
+					<entry><ind> 65.2</ind><dep> 65.2</dep></entry>
 				</table>
-			</expression> 
+			</expression>
 		</input>
 		<input>
 			<condition>
 				<greater-than-equals>
 					<property>/engines/engine[0]/n2-actual</property>
-					<value>62.89</value>
+					<value>65.19</value>
 				</greater-than-equals>
 			</condition>
 			<expression>
 				<table>
 					<property>/engines/engine[0]/n1-actual</property>
 					<entry><ind>  0.0</ind><dep>  0.0</dep></entry>
-					<entry><ind> 23.7</ind><dep> 62.9</dep></entry>
-					<entry><ind>117.5</ind><dep>112.6</dep></entry>
+					<entry><ind> 23.8</ind><dep> 65.2</dep></entry>
+					<entry><ind>111.4</ind><dep>105.6</dep></entry>
 				</table>
-			</expression> 
+			</expression>
 		</input>
 		<output>/sim/sound/fake-n2[0]</output>
 	</filter>
@@ -50,32 +50,32 @@
 			<condition>
 				<less-than>
 					<property>/engines/engine[1]/n2-actual</property>
-					<value>62.89</value>
+					<value>65.19</value>
 				</less-than>
 			</condition>
 			<expression>
 				<table>
 					<property>/engines/engine[1]/n2-actual</property>
 					<entry><ind>  0.0</ind><dep>  0.0</dep></entry>
-					<entry><ind> 62.9</ind><dep> 62.9</dep></entry>
+					<entry><ind> 65.2</ind><dep> 65.2</dep></entry>
 				</table>
-			</expression> 
+			</expression>
 		</input>
 		<input>
 			<condition>
 				<greater-than-equals>
 					<property>/engines/engine[1]/n2-actual</property>
-					<value>62.89</value>
+					<value>65.19</value>
 				</greater-than-equals>
 			</condition>
 			<expression>
 				<table>
 					<property>/engines/engine[1]/n1-actual</property>
 					<entry><ind>  0.0</ind><dep>  0.0</dep></entry>
-					<entry><ind> 23.7</ind><dep> 62.9</dep></entry>
-					<entry><ind>117.5</ind><dep>112.6</dep></entry>
+					<entry><ind> 23.8</ind><dep> 65.2</dep></entry>
+					<entry><ind>111.4</ind><dep>105.6</dep></entry>
 				</table>
-			</expression> 
+			</expression>
 		</input>
 		<output>/sim/sound/fake-n2[1]</output>
 	</filter>
@@ -87,32 +87,32 @@
 			<condition>
 				<less-than>
 					<property>/engines/engine[2]/n2-actual</property>
-					<value>62.89</value>
+					<value>65.19</value>
 				</less-than>
 			</condition>
 			<expression>
 				<table>
 					<property>/engines/engine[2]/n2-actual</property>
 					<entry><ind>  0.0</ind><dep>  0.0</dep></entry>
-					<entry><ind> 62.9</ind><dep> 62.9</dep></entry>
+					<entry><ind> 65.2</ind><dep> 65.2</dep></entry>
 				</table>
-			</expression> 
+			</expression>
 		</input>
 		<input>
 			<condition>
 				<greater-than-equals>
 					<property>/engines/engine[2]/n2-actual</property>
-					<value>62.89</value>
+					<value>65.19</value>
 				</greater-than-equals>
 			</condition>
 			<expression>
 				<table>
 					<property>/engines/engine[2]/n1-actual</property>
 					<entry><ind>  0.0</ind><dep>  0.0</dep></entry>
-					<entry><ind> 23.7</ind><dep> 62.9</dep></entry>
-					<entry><ind>117.5</ind><dep>112.6</dep></entry>
+					<entry><ind> 23.8</ind><dep> 65.2</dep></entry>
+					<entry><ind>111.4</ind><dep>105.6</dep></entry>
 				</table>
-			</expression> 
+			</expression>
 		</input>
 		<output>/sim/sound/fake-n2[2]</output>
 	</filter>
